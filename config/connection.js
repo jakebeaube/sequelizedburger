@@ -18,7 +18,7 @@ if (config.use_env_variable) {
     });
     //     host: "127.0.0.1",
     //     user: "root",
-    //     password: "Caesar9450",
+    //     password: "",
     //     database: "burgers_db"
     // });
 };

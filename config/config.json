@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "Caesar9450",
+    "password": "",
     "database": "burgers_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Caesar9450",
+    "password": "",
     "database": "burgers_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
