@@ -1,7 +1,7 @@
-<h1>Eat-Da-Burger</h1>
+<h1>Burger Time!</h1>
 <img id="burgerimage" src="/assets/images/burger.png">
 <br>
-<!-- pass data via server.js -->
+
 <div>
 <ul id="uneatenburgers">
   {{#each burgers}}
@@ -16,7 +16,7 @@
       </li>
         <form class="formburger" action="index/update/{{this.id}}?_method=PUT" method="POST">
             <input type="hidden" name="devoured" value="1">
-            <button class="burgerbutton" method="submit">Devour it</button>
+            <button class="burgerbutton" method="submit">Just Eat It!</button>
           </form>
       </div>
     {{/unless}}
@@ -25,6 +25,7 @@
 
 
 <ul id="eatenburgers">
+<h2> Burgers Eaten</h2>
   {{#each burgers}}
     {{#if this.devoured}}
       <li>
@@ -41,7 +42,7 @@
 <form id="burgeradd" action="index/create" method="POST">
   <div>
     <label for="burg">Make a burger</label>
-    <input type="text" placeholder="insert burger type here" name="burger_name">
+    <input type="text" placeholder="Type In Your Creation" name="burger_name">
   </div>
   <button class="burgerbuttonadd" type="submit">Add a Burger</button>
 </form>

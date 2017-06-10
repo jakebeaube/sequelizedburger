@@ -1,6 +1,6 @@
 body{
 	background-color: #ee2323;
-	color: #ffffff;
+	color: yellow;
 }
 
 h1, h2{
@@ -45,4 +45,16 @@ ul {
 .burgerbutton {
 	
 	text-align: center;
+	background: green;
+	color: yellow;
+}
+#burgeradd {
+	width: 20%;
+	margin-left: 40%;
+}
+
+.burgerbuttonadd {
+	text-align: center;
+	background: green;
+	color: yellow;
 }
